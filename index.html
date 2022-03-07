@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <div class="center">
+    <a href="http://admin.sun.ac.za/kunsartstel" target="_blank">
     <img src="images/kunsartstel_logo.png" alt="Art Association Stellenbosch" height="150">
-  </div>
+  </div></a>
   <title>ArtSearch - Upload your artwork</title>
   <link rel="stylesheet" href="./style.css">
 
@@ -14,34 +15,23 @@
 <form action method="post">
   
   <h1><strong>Upload your art</strong> to our South African art dataset</h1>
+
+  <div class="description">
+  <p>We want to create a South African Art database, containing not only for the art of professional or established artists, but also lesser knows artists.
+    Our aim is to improve exposure for all artists in South Africa.
+    <br><br>By uploading your artwork, you agree that we may include your artwork in our database and use it for the promotion of art and artists
+    in South Africa.</p>
+  </div>
   
   <div class="form-group">
-    <label for="title">Title of artwork <span>Use title case to get a better result</span></label>
+    <label for="title">Name of artist <span>Please enter the commercial name of the artist</span></label>
     <input type="text" name="title" id="title" class="form-controll"/>
   </div>
   <div class="form-group">
-    <label for="caption">Name of artist <span>Please enter full name</span></label>
+    <label for="caption">Description of style <span>Describe your style of art</span></label>
     <input type="text" name="caption" id="caption" class="form-controll"/>
   </div>
 
-<!--  <div class="form-group">-->
-<!--    <label for="title">Title <span>Use title case to get a better result</span></label>-->
-<!--    <input type="text" name="title" id="title" class="form-controll"/>-->
-<!--  </div>-->
-<!--  <div class="form-group">-->
-<!--    <label for="caption">Caption <span>This caption should be descriptive</span></label>-->
-<!--    <input type="text" name="caption" id="caption" class="form-controll"/>-->
-<!--  </div>-->
-
-<!--  <div class="form-group">-->
-<!--    <label for="title">Title <span>Use title case to get a better result</span></label>-->
-<!--    <input type="text" name="title" id="title" class="form-controll"/>-->
-<!--  </div>-->
-<!--  <div class="form-group">-->
-<!--    <label for="caption">Caption <span>This caption should be descriptive</span></label>-->
-<!--    <input type="text" name="caption" id="caption" class="form-controll"/>-->
-<!--  </div>-->
-  
   <div class="form-group file-area">
         <label for="images">Images <span>Your images should be at least 400x300 wide</span></label>
     <input type="file" name="images" id="images" required="required" multiple="multiple"/>
@@ -64,7 +54,7 @@
 
 <link href='https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700' rel='stylesheet' type='text/css'>
 
-<a href="http://kunsartstel.co.za" class="back-to-article" target="_blank">Art Association Stellenbosch</a>
+<a href="files/How_to_Photograph_Your_Art.pdf" class="back-to-article" target="_blank">How to photograph your art</a>
 <!-- partial -->
   
 </body>
